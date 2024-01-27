@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <title>Meghant's Portfolio</title>
+</head>
+<style>
+  .slideImage {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    filter: brightness(70%);
+
+  }
+
+  .slideImage img {
+    border-radius: 70%;
+    float: right;
+    width: 27em !important;
+    height: 27em;
+    object-fit: cover;
+    box-shadow: inset 0px 0px 20px 10px #000;
+
+  }
+
+  .project-content .li {
+    width: 190% !important;
+  }
+
+  @media(max-width:600px) {
+    .edu{
+      width:80% !important;
+      margin-top:10px;
+    }
+    iframe {
+      width: 100% !important;
+      height: auto;
+    }
+
+    .iit {
+      margin-top: 27px;
+    }
+
+    .project-content .li {
+      width: 100% !important;
+    }
+  }
+
+  .edu {
+    width: 120px;
+    background-color: var(--primary);
+    border-radius: 28px;
+    padding: 12px 24px;
+    color: black !important;
+    font-weight: 500 !important;
+  }
+</style>
+
+
+
+<body class="body-dark">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <header id="top">
+    <a class="header-title" href="#" style="color:white;">MEGHANT</a>
+    <nav>
+      <ul>
+        <li>
+          <a href="#project" class="link">Projects</a>
+        </li>
+        <li>
+          <a href="#stack" class="link">Skills</a>
+        </li>
+        <li>
+          <a href="#contact" class="link">Contact</a>
+        </li>
+      </ul>
+      <!-- 			<button aria-label="Toggle theme">
+                  <i aria-hidden="true" class="icon-normal fas fa-moon"></i>
+              </button> -->
+      <!-- <button aria-label="Toggle navbar">
+          <i aria-hidden="true" class="icon-normal fas fa-bars"></i>
+        </button> -->
+    </nav>
+  </header>
+
+  <div class="slideImage" style="z-index: -10;">
+    <img style="box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);" src="Dp2.jpg" alt="image-2022-07-26-201920536" />
+
+  </div>
+
+  <div class="hero" style="z-index: 100;">
+    <!-- <h1>
+                Hi. I am
+                <span class="hero-name">Aditya</span>
+                <span class="hero-name">Chowdhary</span>
+            </h1> -->
+
+    <div class="hero-about">
+      <h1>
+        Hi I am
+        <span class="hero-name">Meghant</span>
+        <span class="hero-name">Chowdhary</span>
+      </h1>
+      <p>
+        A Biomedical Engineer holding a Master's degree from Jadavpur University. My expertise
+        lies in simplifying complexities using computational tools and softwares.
+      </p>
+
+
+      <a class="resume" href="https://drive.google.com/drive/folders/17RQ6TVG8pnTYypgUn6ui97-jquIQQ5S5">
+        <span class="btn">Resume</span>
+      </a>
+    </div>
+  </div>
+
+
+  <section id="project" class="project" style="margin-top:2em;">
+    <h2 class="section-title">Education Background</h2>
+
+
+    <div style="justify-content: center;text-align: center;">
+      <button class="edu 10th" style="color:white;">Secondary</button>
+      <button class="edu 12th" style="color:white;">Higher Sec</button>
+      <button class="edu btech" style="color:white;">Bachelors</button>
+      <button class="edu mtech" style="color:white;">Masters</button>
+
+    </div>
+
+    <div class="project-container 10th_content" style="display: none;">
+      <p class="" style="text-align: left;">
+        Completed my secondary in 2012 from Kendriya Vidyalaya IIT Kharagpur with an 8.6 CGPA.
+        Topped the Biotech Olympiad, showcasing my passion for the subject.
+
+      </p>
+    </div>
+
+
+    <div class="project-container 12th_content" style="display: none;">
+
+      <p class="" style="text-align: left;">
+        Completed 12th in 2014 with a 67.2%, focusing on subjects like Physics, Chemistry, Mathematics, English, and
+        an additional subject, Biotechnology.
+        <br>Represented our school in All India Inter KV Football Tournament at Regional & National level twice,
+        showcasing teamwork and sportsmanship.
+        <br>Actively participated in school events like annual functions and sports days, displaying diverse
+        talents.<br>
+        <br> <b style="color:var(--primary)">My high school journey wasn't just about academics. I excelled extra
+          curricular activities like
+          -played sports at regional and national levels, and actively contributed to school events, highlighting my
+          dedication to a well-rounded education.</b>
+      </p>
+    </div>
+
+
+    <div class="project-container btech_content" style="display: none;">
+      <p class="" style="text-align:left;">
+        Graduated with a B.Tech in Electronics and Communication Engineering (ECE) from GITA (Gandhi Institute for
+        Technological Advancement, Bhubaneshwar) with a CGPA of 7.01.
+        <br>Actively contributed to the college community by serving as a member of the college fest committee,
+        specifically the AKANKSHA team, demonstrating organizational and teamwork skills.
+        <br>Engaged in the GITA Photographic Club, where I managed a creative outlet and contributed to capturing
+        memorable moments within the college community.
+        <br>Demonstrated my passion for sports by participating in inter-college and inter-departmental football
+        competitions, achieving the runner-up position with the team in the year 2019. These experiences showcased my
+        commitment to teamwork, leadership, and a healthy competitive spirit.
+        <br><br> <b style="color:var(--primary)">
+          In essence, my B.Tech journey was characterized by academic excellence, active participation in college
+          events, and a commitment to extracurricular activities such as photography and football. These experiences
+          not only enriched my college life but also equipped me with a diverse skill set that goes beyond the
+          classroom.
+        </b>
+      </p>
+    </div>
+
+
+    <div class="project-container mtech_content" style="display: none;">
+
+      <p class="" style="text-align: left;">
+        <span style="color: var(--primary);font-size:20px;font-weight: bold;">POST GRADUATION(M.E) Biomedical
+          Engineering</span>
+        <br> JADAVPUR UNIVERSITY[2021-2023]
+
+        <br>PROJECT TOPIC-VIRTUAL SCREENING OF PHYTOCHEMICALS TO HIGHLIGHT THE HIT MOLECULES FOR SKIN LIGHTENING
+        <br>FORMULATIONS
+        <br>Under the guidance of
+        <br>Dr. Piyali Basak
+        <br>Associate Professor
+        <br>School of Bioscience and Engineering
+        <br>Jadavpur University Kolkata-700032
+
+        <br>
+        <br>
+        Research Objectives- <br>1.Can molecular docking accurately anticipate the interactions and binding affinities
+        between phytochemicals and target proteins involved in controlling skin pigmentation?
+        <br>2.Which phytochemicals have the most binding affinity and have the greatest potential as skin lightening
+        treatments?
+        <br>3.What are the main molecular interactions and processes through which these phytochemicals influence the
+        pathways leading to melanogenesis?
+        <br><br>
+
+        <b style="color:var(--primary);">
+          Sports Achievement in Masters:-
+          In the second year of my master's program, I actively participated as a member of ARENA.
+          Collaborated with my entire department team in a football competition, achieving the runner-up position.
+          This achievement was particularly special as it marked the department's return to the runner-up position after
+          14 years, making it one of the most memorable moments of my academic journey.
+        </b>
+
+      </p>
+    </div>
+
+
+  </section>
+
+  <section id="project" class="project" style="margin-top:2em;">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-container" style="">
+
+      <img src="thesis.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3>Masters major project</h3>
+        <p>M.E final year thesis on virtual screening of phytochemicals, "final year thesis on virtual screening of
+          phytochemicals"</p>
+
+        <ul class="project-skill">
+          <li>Molecular Autodocking</li>
+          <li>RCSB</li>
+          <li>PUB</li>
+          <li>CHEM</li>
+          <li>IMPPAT</li>
+          <li>SWISS-ADME</li>
+
+        </ul>
+
+        <ul class="project-link">
+          <li>
+
+            <button id="preview" onclick="myFunction()" class="btn">Preview</button>
+            <a class="resume" href="https://drive.google.com/drive/folders/17RQ6TVG8pnTYypgUn6ui97-jquIQQ5S5">
+              <span class="btn">Excel file</span>
+            </a>
+
+          </li>
+
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+    <div class="project-container" id="toggle" style="justify-content:left;text-align:left;display:none;">
+
+
+
+      <div class="">
+
+        <p>
+          <b style="color:rgb(255, 170, 0);">
+            PROJECT TOPIC-VIRTUAL SCREENING OF PHYTOCHEMICALS TO HIGHLIGHT THE HIT MOLECULES FOR SKIN LIGHTENING
+            FORMULATIONS
+            <br>
+            Under the guidance of
+            <br>
+            Dr. Piyali Basak
+            <br>
+            Associate Professor
+            <br>
+            School of Bioscience and Engineering
+            <br>
+            Jadavpur University Kolkata-700032
+          </b>
+          <br>
+          Project Steps: <br><br>
+
+          1. Article and Compound Selection:-I selected a research article focusing on virtual screening and a standard
+          compound, Hesperidin, to guide my study.
+          <br>
+          <br>
+          2. Proteins and Ligands Selection:-Three proteins associated with skin lightening—Tyrosinase, Elastase, and
+          Collagenase—were chosen based on literature. Ligands were randomly selected from databases like IMPPAT,
+          PubChem, and RCSB, adhering to Lipinski's rule.
+          <br>
+          3. Designing and Cleaning:-Utilizing tools such as Discovery Studio, Chimera, Open Babel, and Autodock Vienna,
+          I
+          designed and cleaned ligands and proteins to ensure accurate virtual screening.
+          <br>
+          <br>
+
+          4. Virtual Screening for Skin Lightening:-The virtual screening aimed to identify potential hit molecules
+          among
+          the selected ligands for skin lightening formulations.
+          <br>
+          <br>
+
+          5. Comparison with Standard Compound:-Finally, I compared the outcomes of the virtual screening with the
+          standard
+          skin lightening compound, Hesperidin, to assess the effectiveness of the selected ligands.
+          <br>
+          <br>
+          <b>
+            Project Significance:
+            This project focussed into virtual screening of phytochemicals for developing skin lightening formulations.
+            By
+            identifying hit molecules through virtual screening and comparing them with a standard compound, Hesperidin,
+            the study contributes valuable insights to the field of cosmetic and therapeutic research. The project's
+            main
+            goal was to spotlight potential candidates for skin lightening formulations through a comprehensive virtual
+            screening approach.
+          </b> <br>
+        </p>
+        <!-- <li class="li" style="margin-bottom: 10px;width: 200%;"><a style="color: white;" href="">worked on computational
+            database management(RCSB,PUB CHEM,IMPPAT,SWISS-ADME)</a>
+        </li> -->
+        <!-- <div style="width: 90%;height: 0.5px;background-color: rgb(255, 170, 0);margin-top:15px;margin-bottom: 10px;"></div> -->
+        <!-- <li class="li lii" style="margin-bottom: 10px;"><a style="color: white;" href="">
+            Natural Compounds for Brighter Complexion : Conducted extraction, tests, and assays to evaluate efficacy
+            and safety using MOLECULAR AUTODOCKING. Analyzed data, authored reports, and presented findings at
+            conferences and developed strong research skills.
+          </a>
+        </li> -->
+
+        <!-- <li class="li lii" style="margin-bottom: 10px;"><a style="color: white;" href="">
+
+            Completed this project using 3 proteins(tyrosinase,collegenase,elastase) combined with ligands.
+          </a>
+        </li>
+
+        <li class="li lii" style="margin-bottom: 10px;"><a style="color: white;" href="">
+
+
+            Obtained the most stable and the best ligand for melalin production for brighter skin.
+          </a>
+        </li>
+
+        <li class="li lii" style="margin-bottom: 10px;"><a style="color: white;" href="">
+
+            Designed and executed a series of experiments to evaluate the efficacy and safety of these compounds.</a>
+        </li> -->
+
+
+
+      </div>
+    </div>
+
+    <div class="project-container" style="">
+
+      <img src="quadcopter.avif" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3>Btech final year project Major</h3>
+        <p>"Basic working principle of a Quadcopter Using Audrino: Main
+          objective of this project was to understand the key components and their functions involved in the
+          operation of quadcopter."</p>
+
+        <ul class="project-skill">
+          <li>Arduino</li>
+          <li>Embedded</li>
+
+
+        </ul>
+
+        <ul class="project-link">
+          <li>
+
+            <button id="previews" onclick="myFunctions()" class="btn">Preview</button>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+    <div class="project-container" id="toggles" style="justify-content:left;text-align:left;display:none;">
+
+
+
+      <p>
+        <b style="color:rgb(255, 170, 0)">
+          Project Title: Remodification of Camera-Based Drone and Exploration of Workplace Applications <br><br>
+        Summary:
+        In this comprehensive major project, I embarked on the remodification of a camera-based drone, aiming to bridge
+        theoretical knowledge with practical applications. The project unfolded through distinct phases, encompassing an
+        exploration of drone history, quadcopter fundamentals, component analysis, mastery of the flight control system,
+        and an in-depth examination of real-world uses and potential workplace applications.
+        </b> <br>
+        Detailed Project Elements: <br>
+        <br><br> 1. History and Developments:
+        • Traced the historical evolution of drones, examining pivotal milestones and contemporary technological
+        advancements shaping the UAV landscape.
+        <br><br> 2. Quadcopter Basics:
+        • Delved into the core structure and mechanics of quadcopters, investigating their aerodynamics and mechanics
+        essential for stable flight.
+        <br> <br> 3. Components Analysis:
+        • Conducted a comprehensive analysis of key quadcopter components, ranging from the foundational frame and
+        motors to advanced features such as GPS, cameras, ultrasonic sensors, and barometer pressure sensors.
+        <br> <br> 4. Flight Control System Mastery:
+        • Attained a nuanced understanding of the flight control system, emphasizing intricate quadcopter motions,
+        including takeoff, landing, and directional movements.
+        <br> <br> 5. Uses and Applications:
+        • Explored a spectrum of real-world applications, including 3D mapping for spatial analysis, search and rescue
+        operations for enhanced safety, and precision farming for agricultural efficiency.
+        <br> <br> 6. Advantages and Disadvantages Assessment:
+        • Conducted a detailed analysis of the advantages and disadvantages of drone technology, considering diverse
+        parameters such as efficiency, cost-effectiveness, and safety.
+
+        <b><br><br>
+          Why This Project Matters?
+          I did this project because I wanted to show how cool and useful drones can be in everyday jobs. It's not just
+          about the technical stuff; it's also about thinking how drones can make our jobs easier and safer. This project
+          was like a big step in my learning journey, where I got to understand and improve technology for real-life use.
+        </b>
+       
+
+      </p>
+
+
+
+
+
+    </div>
+    </div>
+
+    <div class="project-container">
+
+      <img src="1 (4).jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3>Photography</h3>
+        <p>" I believe in freezing moments that unveil emotions, stories, and beauty in its purest form. With a lens as
+          my tool and creativity as my guide, I embark on a journey to encapsulate the world's wonders."</p>
+
+        <!-- <ul class="project-skill">
+                    <li>HTML</li>
+                    <li>Figma</li>
+                    <li>Css</li>
+                    <li>JAVASCRIPT</li>
+
+                </ul> -->
+
+        <ul class="project-link">
+          <li>
+
+            <a href="previewTwo.html"><span class="btn">Preview</span></a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+
+    </div>
+
+
+    <h2 class="section-title">Achievements</h2>
+
+
+    <div class="project-container">
+
+      <img src="pwc.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3 style="text-align:left;">PwC Switzerland Power BI Job Simulation</h3>
+        <p style="text-align:left;">Enhanced Power skills for client data visualization needs.
+          Expert in creating impactful Power BI dashboards.
+          Analytical problem-solving in HR data, focusing on gender-related KPIs.
+          Strong communication skills for delivering insights to partners.</p>
+
+        <ul class="project-skill">
+          <li>Forge 2024</li>
+
+        </ul>
+        <a class="resume" href="https://drive.google.com/drive/folders/17RQ6TVG8pnTYypgUn6ui97-jquIQQ5S5">
+          <span class="btn">Certificate</span>
+        </a>
+
+
+      </div>
+    </div>
+    <div class="project-container">
+
+      <img src="pwc.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3 style="text-align:left;">PwC US Technology Consulting Job Simulation</h3>
+        <p style="text-align:left;">Built a Minimum Viable Product (MVP) roadmap for upgrading the current compliance
+          system.
+          Completed a job simulation involving tasks that replicate work as a Technology.
+          Created an executive summary slide for the final presentation to the client.</p>
+
+        <ul class="project-skill">
+          <li>Forge 2024</li>
+
+        </ul>
+        <a class="resume" href="https://drive.google.com/drive/folders/17RQ6TVG8pnTYypgUn6ui97-jquIQQ5S5">
+          <span class="btn">Certificate</span>
+        </a>
+
+
+      </div>
+    </div>
+
+    <div class="project-container">
+
+      <img src="New folder/photo_2024-01-26_20-59-07.jpg" alt="image-2022-07-26-201920536" height="250" width="450"
+        style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3 style="text-align:left;">Event Management</h3>
+        <p style="text-align:left;">Secured a significant sponsorship deal with a leading local brand
+          Managed grand events with 500+ attendees Developed and managed event budgets, effectively
+          allocating resources and negotiating with suppliers to optimize cost-efficiency.</p>
+
+        <a class="resume" href="">
+          <span class="btn">Photos and Videos</span>
+        </a>
+
+
+      </div>
+    </div>
+
+
+    <div class="project-container">
+
+      <img src="Kvnational.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+
+      <div class="project-content">
+        <h3 style="text-align:left;">National Football Player</h3>
+        <p style="text-align:left;">Played the regional level football tournament and got selected for Nationals,
+          represented Kolkata region in all India Kv Football National Championship.</p>
+
+
+
+
+      </div>
+    </div>
+    <div class="project-container">
+      <iframe height="250" width="450" style="object-fit: cover;border-radius: 10px;"
+        src="https://www.youtube.com/embed/dEXnI4X6Rtg"></iframe>
+
+
+      <div class="project-content iit">
+        <h3 style="text-align:left;">Spring Fest IIT Kharagpur</h3>
+        <p style="text-align:left;">participated in iit kharagpur spring festival in film making festival during my
+          bachelor's degree.Click on the youtube video to view my video.</p>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+    <!-- <h2 class="section-title">Award and Workshop</h2> -->
+
+    <div class="project-container" id="toggle" style="justify-content:left;text-align:left;">
+
+
+
+      <div class="project-content lii" style="">
+        <li class="li lii" style="margin-bottom: 10px;width: 200%;"><a style="color: white;" href="">Qualified GATE exam
+            in
+            2019.</a></li>
+        <!-- <div style="width: 90%;height: 0.5px;background-color: rgb(255, 170, 0);margin-top:15px;margin-bottom: 10px;"></div> -->
+        <li class="li lii" style="margin-bottom: 10px;"><a style="color: white;" href="">won Biotech olympiad with
+            school rank
+            1</a></li>
+        <li class="li lii" style="margin-bottom: 10px;width:200%;"><a style="color: white;" href="">Played all India
+            inter KV
+            football tournament(national level)-2
+            times</a></li>
+        <li class="li lii" style="margin-bottom: 10px;width: 200%;"><a style="color: white;" href="">participated in iit
+            kharagpur spring festival in film making festival</a></li>
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+    <!--     
+                <div class="project-container">
+    
+                    <img src="FB_IMG_1673208823517.jpg" alt="image-2022-07-26-201920536" height="250" width="450" style="object-fit: cover;" />
+    
+                    <div class="project-content">
+                        <h3>Wall Art's</h3>
+                        <p> Check out some of our favorite wall art for interiors </p>
+    
+                        <ul class="project-skill">
+                            <li>Adobe Illustrator</li>
+                            
+                        </ul>
+    
+                        <ul class="project-link">
+                            <li>
+                                <a class="resume" href="https://shareshell.000webhostapp.com/">
+                                    <a href="previewTwo.html"><span class="btn">Preview</span></a>
+                                </a>
+                            </li>
+    
+                        </ul>
+                    </div>
+                </div>
+
+            <div class="project-container">
+
+                <img src="Screenshot (35).png" alt="image-2022-07-26-201920536" height="250" width="450" />
+
+                <div class="project-content">
+                    <h3>Shareshell</h3>
+                    <p>Build a project that helps user to find and search for a real estate property easily using</p>
+
+                    <ul class="project-skill">
+                        <li>HTML</li>
+                        <li>JQUERY</li>
+                        <li>CSS</li>
+                    </ul>
+
+                    <ul class="project-link">
+                        <li>
+                            <a class="resume" href="https://shareshell.000webhostapp.com/">
+                                <span class="btn">Preview</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="project-container">
+
+                <img src="Screenshot (61).png" alt="image-2022-07-26-201920536" height="250" width="450" />
+
+                <div class="project-content">
+                    <h3>Trend Me Store</h3>
+                    <p>Build an Ecommerce website project using NODE JS and MONGO DB for a retailer
+                        to sell fashion products.</p>
+
+                    <ul class="project-skill">
+                        <li>HTML</li>
+                        <li>JQUERY</li>
+                        <li>MONGOOSE</li>
+                        <li>Node JS</li>
+                        <li>CSS</li>
+                    </ul>
+
+                    <ul class="project-link">
+                        <li>
+                            <a class="resume" href="https://bit.ly/3MCG3w1">
+                                <span class="btn">Preview</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-container">
+
+                <img src="Screenshot (36).png" alt="image-2022-07-26-201920536" height="250" width="450" />
+
+                <div class="project-content">
+                    <h3>Crypto Tracker</h3>
+                    <p>Build a project that helps user to find Crypto currency details such as price, valome etc using API</p>
+
+                    <ul class="project-skill">
+                        <li>HTML</li>
+                        <li>JQUERY</li>
+                        <li>CSS</li>
+                    </ul>
+
+                    <ul class="project-link">
+                        <li>
+                            <a class="resume" href="https://adityachow1011.github.io/Crypto/">
+                                <span class="btn">Preview</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div> -->
+
+    <!-- <div class="project-container">
+              <img src="./assets/images/startpage.png" alt="startpage" />
+              <div class="project-content">
+                  <h3>Startpage</h3>
+                  <p>A minimal startpage for Firefox.</p>
+                  <ul class="project-skill">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                  </ul>
+                  <ul class="project-link">
+                      <li>
+                          <a href="#" aria-label="Source code" target="_blank"
+                              title="source code" rel="noopener"><i class="icon-border fas fa-code"></i></a>
+                      </li>
+                      <li>
+                          <a href="#" aria-label="Preview" target="_blank"
+                              title="preview" rel="noopener"><i aria-hidden="true"
+                                  class="icon-border fas fa-external-link-alt"></i></a>
+                      </li>
+                  </ul>
+              </div>
+          </div> -->
+  </section>
+
+
+
+
+
+  <!-- <section id="stack" class="stack">
+    <h2 class="section-title">Tech Stack</h2>
+    <div class="stack-container">
+
+      <div class="tech-container">
+        <i class="devicon-Mysql-plain colored"></i>
+        Illustrator
+      </div>
+      <div class="tech-container">
+        <i class="devicon-figma-plain colored"></i>
+        Figma
+      </div>
+      <div class="tech-container">
+        <i class="devicon-photoshop-plain colored"></i>
+        Photoshop
+      </div>
+      <div class="tech-container">
+        <i class="devicon-indesign-plain colored"></i>
+        Indesign
+      </div>
+      <div class="tech-container">
+        <i class="devicon-wix-plain colored"></i>
+        Wix
+      </div>
+      <div class="tech-container">
+        <i class="devicon-wordpress-plain colored"></i>
+        Wordpress
+      </div>
+
+
+
+    </div>
+  </section> -->
+
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Skills</h2>
+
+    <ul>
+      <li>
+        <a href="mailto:bhowmicksinjini02@gmail.com">
+          <span class="btn">
+            <i aria-hidden="true" class="fas icon fa-"></i>
+            MySql Database
+          </span>
+        </a>
+      </li>
+
+      <!-- <li>
+                <a href="https://github.com/adityachow1011" aria-label="Github">
+                    <span class="btn">
+                        <i aria-hidden="true" class="fab icon fa-github"></i>
+                        Github
+                    </span>
+                </a>
+            </li> -->
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+            Power BI
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+            MS Excel
+          </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+            Data Management
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+            Data Visualization
+          </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+            Analytical Skills
+
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+
+            Strong Communication
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+
+            Stakeholder Management
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-"></i>
+            Team Collaboration
+          </span>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Get in touch</h2>
+
+    <ul>
+      <li>
+        <a href="mailto:meghantchowdhary89@gmail.com">
+          <span class="btn">
+            <i aria-hidden="true" class="fas icon fa-envelope"></i>Email
+          </span>
+        </a>
+      </li>
+
+      <!-- <li>
+                <a href="https://github.com/adityachow1011" aria-label="Github">
+                    <span class="btn">
+                        <i aria-hidden="true" class="fab icon fa-github"></i>
+                        Github
+                    </span>
+                </a>
+            </li> -->
+
+      <li>
+        <a href="https://www.linkedin.com/in/meghantpdchowdhary/" aria-label="Linkedin">
+          <span class="btn">
+            <i aria-hidden="true" class="fab icon fa-linkedin"></i>
+            Linkedin
+          </span>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <footer style="text-align: center;justify-content: center;">
+    <small>&copy; M E G H A N T C H O W D H A R Y , +91 9800477746, meghantchowdhary89@gmail.com</small>
+  </footer>
+
+  <div class="scroll-container">
+    <div aria-label="Scroll up" class="scroll-up">
+      <a href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+</body>
+<script>
+  function myFunction() {
+    $("#toggle").slideToggle();
+    //   var x = document.getElementById("toggle");
+    //   if (x.style.display === "none") {
+    //     x.style.display = "block";
+    //   } else {
+    //     x.style.display = "none";
+    //   }
+  }
+  function myFunctions() {
+    $("#toggles").slideToggle();
+    //   var x = document.getElementById("toggle");
+    //   if (x.style.display === "none") {
+    //     x.style.display = "block";
+    //   } else {
+    //     x.style.display = "none";
+    //   }
+  }
+
+  $(".10th").click(function () {
+    $(".12th_content").hide();
+    $(".btech_content").hide();
+    $(".mtech_content").hide();
+    $(".10th_content").slideToggle();
+  });
+
+  $(".12th").click(function () {
+    $(".12th_content").slideToggle();
+    $(".btech_content").hide();
+    $(".mtech_content").hide();
+    $(".10th_content").hide();
+  });
+
+  $(".btech").click(function () {
+    $(".12th_content").hide();
+    $(".btech_content").slideToggle();
+    $(".mtech_content").hide();
+    $(".10th_content").hide();
+  });
+
+  $(".mtech").click(function () {
+    $(".12th_content").hide();
+    $(".btech_content").hide();
+    $(".mtech_content").slideToggle();
+    $(".10th_content").hide();
+  });
+</script>
